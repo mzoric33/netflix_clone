@@ -10,6 +10,7 @@ const LoginScreen = () => {
         <img
           className="loginScreen__logo"
           src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+          alt="Login Screen Logo"
         />
         <button className="loginScreen__button" onClick={() => setSignIn(true)}>
           Sign In
